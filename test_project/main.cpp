@@ -12,4 +12,5 @@
 using namespace std;
 
 TEST_CASE("exec"){
+// The answer should be 17
 }

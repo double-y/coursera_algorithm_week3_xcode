@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5F5E0E481C27582000900483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E0E471C27582000900483 /* main.cpp */; };
 		5F5E0E551C27597B00900483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E0E541C27597B00900483 /* main.cpp */; };
+		5FBD9ACF1C277D7A001ACDB4 /* karger_min_cut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9ACD1C277D7A001ACDB4 /* karger_min_cut.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,10 @@
 		5F5E0E521C27597B00900483 /* test_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5E0E541C27597B00900483 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5F5E0E591C275A1A00900483 /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		5F5E0E5A1C275BDD00900483 /* test1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
+		5FBD9ACC1C277CD5001ACDB4 /* kargerMinCut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = kargerMinCut.txt; sourceTree = "<group>"; };
+		5FBD9ACD1C277D7A001ACDB4 /* karger_min_cut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = karger_min_cut.cpp; sourceTree = "<group>"; };
+		5FBD9ACE1C277D7A001ACDB4 /* karger_min_cut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = karger_min_cut.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				5F5E0E471C27582000900483 /* main.cpp */,
+				5FBD9ACD1C277D7A001ACDB4 /* karger_min_cut.cpp */,
+				5FBD9ACE1C277D7A001ACDB4 /* karger_min_cut.h */,
 			);
 			path = coursera_algorithm_week3;
 			sourceTree = "<group>";
@@ -87,8 +94,10 @@
 		5F5E0E531C27597B00900483 /* test_project */ = {
 			isa = PBXGroup;
 			children = (
+				5FBD9ACC1C277CD5001ACDB4 /* kargerMinCut.txt */,
 				5F5E0E591C275A1A00900483 /* catch.hpp */,
 				5F5E0E541C27597B00900483 /* main.cpp */,
+				5F5E0E5A1C275BDD00900483 /* test1.txt */,
 			);
 			path = test_project;
 			sourceTree = "<group>";
@@ -171,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F5E0E481C27582000900483 /* main.cpp in Sources */,
+				5FBD9ACF1C277D7A001ACDB4 /* karger_min_cut.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +321,7 @@
 				5F5E0E4D1C27582000900483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F5E0E561C27597B00900483 /* Build configuration list for PBXNativeTarget "test_project" */ = {
 			isa = XCConfigurationList;
@@ -319,6 +330,7 @@
 				5F5E0E581C27597B00900483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
