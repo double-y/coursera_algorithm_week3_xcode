@@ -50,3 +50,29 @@ int count_min_cut(vector<pair<int, int>> graph_vec, set<int> node_set){
     
     return graph_vec.size();
 }
+
+int exec_min_cut(string file_name){
+    ifstream inFile(file_name);
+    string line;
+    
+    vector<pair<int, int>> graph_vec;
+    set<int> node_set;
+    
+    while (inFile){
+        istringstream iss(line);
+        int from_node;
+        iss >> from_node;
+        node_set.insert(from_node);
+        int to_node;
+        while (iss >> to_node){
+            if(from_node < to_node){
+                pair<int, int> edge (from_node, to_node);
+                graph_vec.push_back(edge);
+                node_set.insert(to_node);
+            }
+        }
+    }
+    
+    return count_min_cut(graph_vec, node_set);
+    
+}

@@ -13,5 +13,8 @@
 #include <vector>
 #include <set>
 #include <algorithm>
+#include <sstream>
+#include <string>
+#include <fstream>
 
 #endif /* karger_min_cut_h */
