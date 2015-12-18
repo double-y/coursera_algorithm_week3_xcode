@@ -17,4 +17,7 @@
 #include <string>
 #include <fstream>
 
+int count_min_cut(std::vector<std::pair<int, int>> graph_vec, std::set<int> node_set);
+int exec_min_cut(std::string file_name);
+
 #endif /* karger_min_cut_h */

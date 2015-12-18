@@ -10,6 +10,7 @@
 		5F5E0E481C27582000900483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E0E471C27582000900483 /* main.cpp */; };
 		5F5E0E551C27597B00900483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E0E541C27597B00900483 /* main.cpp */; };
 		5FBD9ACF1C277D7A001ACDB4 /* karger_min_cut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9ACD1C277D7A001ACDB4 /* karger_min_cut.cpp */; };
+		5FC8BE361C2C6DC80068DF3E /* karger_min_cut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD9ACD1C277D7A001ACDB4 /* karger_min_cut.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -189,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F5E0E551C27597B00900483 /* main.cpp in Sources */,
+				5FC8BE361C2C6DC80068DF3E /* karger_min_cut.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
