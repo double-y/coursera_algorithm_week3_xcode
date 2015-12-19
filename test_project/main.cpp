@@ -8,8 +8,13 @@
 
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
+#include "karger_min_cut.h"
 
 using namespace std;
+
+TEST_CASE("tests"){
+    REQUIRE(exec_min_cut("test1.txt") == 1);
+}
 
 TEST_CASE("exec"){
 // The answer should be 17
