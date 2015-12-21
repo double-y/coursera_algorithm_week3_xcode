@@ -33,19 +33,19 @@ int count_min_cut(vector<pair<int, int>> graph_vec, set<int> node_set){
             if(edge.first == first_node || edge.first == second_node){
                 new_edge.first = -min_nodenum_abs;
             }else{
-                new_edge.first = first_node;
+                new_edge.first = edge.first;
             }
             if(edge.second == first_node || edge.second == second_node){
                 new_edge.second = -min_nodenum_abs;
             }else{
-                new_edge.second = second_node;
+                new_edge.second = edge.second;
             }
             
-            if(edge.first != edge.second){
+            if(new_edge.first != new_edge.second){
                 new_graph.push_back(new_edge);
             }
-            graph_vec = new_graph;
         }
+        graph_vec = new_graph;
     }
     
     return graph_vec.size();
@@ -58,7 +58,7 @@ int exec_min_cut(string file_name){
     vector<pair<int, int>> graph_vec;
     set<int> node_set;
     
-    while (inFile){
+    while (getline(inFile, line)){
         istringstream iss(line);
         int from_node;
         iss >> from_node;
