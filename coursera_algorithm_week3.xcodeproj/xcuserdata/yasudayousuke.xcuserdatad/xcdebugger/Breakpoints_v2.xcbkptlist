@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "coursera_algorithm_week3/karger_min_cut.cpp"
-            timestampString = "472680078.589365"
+            timestampString = "472681078.576561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "exec_min_cut(string file_name)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "coursera_algorithm_week3/karger_min_cut.cpp"
-            timestampString = "472680078.589365"
+            timestampString = "472681078.576561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "exec_min_cut(string file_name)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "coursera_algorithm_week3/karger_min_cut.cpp"
-            timestampString = "472680078.589365"
+            timestampString = "472681078.576561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "exec_min_cut(string file_name)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "coursera_algorithm_week3/karger_min_cut.cpp"
-            timestampString = "472680078.589365"
+            timestampString = "472681078.576561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "count_min_cut(vector&lt;pair&lt;int, int&gt;&gt; graph_vec, set&lt;int&gt; node_set)"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "count_min_cut(vector&lt;pair&lt;int, int&gt;&gt; graph_vec, set&lt;int&gt; node_set, int seed)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "coursera_algorithm_week3/karger_min_cut.cpp"
-            timestampString = "472680444.202437"
+            timestampString = "472681078.576561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "count_min_cut(vector&lt;pair&lt;int, int&gt;&gt; graph_vec, set&lt;int&gt; node_set)"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "count_min_cut(vector&lt;pair&lt;int, int&gt;&gt; graph_vec, set&lt;int&gt; node_set, int seed)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

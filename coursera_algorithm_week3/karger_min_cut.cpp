@@ -10,9 +10,11 @@
 
 using namespace std;
 
-int count_min_cut(vector<pair<int, int>> graph_vec, set<int> node_set){
+int count_min_cut(vector<pair<int, int>> graph_vec, set<int> node_set, int seed){
     
     int min_nodenum_abs = 0;
+    
+    srand(seed);
     
     while(node_set.size()>2){
         min_nodenum_abs++;
@@ -73,6 +75,12 @@ int exec_min_cut(string file_name){
         }
     }
     
-    return count_min_cut(graph_vec, node_set);
-    
+    int min_count = graph_vec.size();
+    for(int i=0; i<node_set.size(); i++){
+        int count = count_min_cut(graph_vec, node_set, i);
+        if(count < min_count){
+            min_count = count;
+        }
+    }
+    return min_count;
 }
