@@ -17,5 +17,5 @@ TEST_CASE("tests"){
 }
 
 TEST_CASE("exec"){
-// The answer should be 17
+    REQUIRE(exec_min_cut("kargerMinCut.txt") == 17);
 }
